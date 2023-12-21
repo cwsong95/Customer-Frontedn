@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 
 export default function useFetch(url, { method, headers, body } = {}) {
-    const [data, setData] = useState();
+    const [data, setData] = useState([]);
     const [errorStatus, setErrorStatus] = useState();
 
     const navigate = useNavigate();

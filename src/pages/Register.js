@@ -50,7 +50,7 @@ export default function Register() {
         <form className="m-2 w-full max-w-sm" id="customer" onSubmit={login}>
             <div className="md:flex md:items-center mb-6">
                 <div className="md:w-1/4">
-                    <label for="email">Email</label>
+                    <label htmlFor="email">Email</label>
                 </div>
 
                 <div className="md:w-3/4">
@@ -67,7 +67,7 @@ export default function Register() {
             </div>
             <div className="md:flex md:items-center mb-6">
                 <div className="md:w-1/4">
-                    <label for="username">Username</label>
+                    <label htmlFor="username">Username</label>
                 </div>
 
                 <div className="md:w-3/4">
@@ -85,7 +85,7 @@ export default function Register() {
 
             <div className="md:flex md:items-center mb-6">
                 <div className="md:w-1/4">
-                    <label for="password">Password</label>
+                    <label htmlFor="password">Password</label>
                 </div>
 
                 <div className="md:w-3/4">

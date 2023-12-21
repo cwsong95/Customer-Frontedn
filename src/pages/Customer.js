@@ -110,7 +110,7 @@ export default function Customer() {
                     >
                         <div className="md:flex md:items-center mb-6">
                             <div className="md:w-1/4">
-                                <label for="name">Name</label>
+                                <label htmlFor="name">Name</label>
                             </div>
 
                             <div className="md:w-3/4">
@@ -132,7 +132,7 @@ export default function Customer() {
 
                         <div className="md:flex md:items-center mb-6">
                             <div className="md:w-1/4">
-                                <label for="industry">Industry</label>
+                                <label htmlFor="industry">Industry</label>
                             </div>
 
                             <div className="md:w-3/4">
